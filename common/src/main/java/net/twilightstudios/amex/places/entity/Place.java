@@ -14,7 +14,7 @@ public class Place {
 	
 	private OpeningDays openningDays;
 	
-	private double rating;
+	private Rating rating;
 	private int priceLevel;
 	
 	private String photoId;
@@ -55,10 +55,11 @@ public class Place {
 	public void setPhotoId(String photoId) {
 		this.photoId = photoId;
 	}
-	public double getRating() {
+	
+	public Rating getRating() {
 		return rating;
 	}
-	public void setRating(double rating) {
+	public void setRating(Rating rating) {
 		this.rating = rating;
 	}
 	public String getProvider() {
