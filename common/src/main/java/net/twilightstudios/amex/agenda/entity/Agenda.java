@@ -5,27 +5,28 @@ import java.util.List;
 import net.twilightstudios.amex.flight.entity.FlightStatus;
 import net.twilightstudios.amex.language.entity.LanguageExpression;
 import net.twilightstudios.amex.places.entity.Place;
+import net.twilightstudios.amex.places.entity.PlaceExtended;
 import net.twilightstudios.amex.weather.entity.Forecast;
 
 public class Agenda {
 	
-	private List<Place> restaurants;
-	private List<Place> activities;
+	private List<PlaceExtended> restaurants;
+	private List<PlaceExtended> activities;
 	private FlightStatus flightStatus;
 	private List<LanguageExpression> expressions;
 	private List<Forecast> weatherForecast;
 	private byte[] map;
 	
-	public List<Place> getRestaurants() {
+	public List<PlaceExtended> getRestaurants() {
 		return restaurants;
 	}
-	public void setRestaurants(List<Place> restaurants) {
+	public void setRestaurants(List<PlaceExtended> restaurants) {
 		this.restaurants = restaurants;
 	}
-	public List<Place> getActivities() {
+	public List<PlaceExtended> getActivities() {
 		return activities;
 	}
-	public void setActivities(List<Place> activities) {
+	public void setActivities(List<PlaceExtended> activities) {
 		this.activities = activities;
 	}
 	public FlightStatus getFlightStatus() {
